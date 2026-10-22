@@ -1,4 +1,3 @@
-Warning: fs was declared with const; use let for reassignable variables.
 # Satin Free Wakes (Unofficial 1.20.1 Port)
 
 An unofficial Fabric backport of [Satin Free Wakes](https://modrinth.com/mod/satin-free-wakes) to Minecraft 1.20.1. This project is based on the [Commander07/wakes](https://github.com/Commander07/wakes) source fork, which in turn builds on [Goby56/wakes](https://github.com/Goby56/wakes). It is not an official release and is not endorsed by those authors.

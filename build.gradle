@@ -67,8 +67,6 @@ dependencies {
 
 	testImplementation "org.junit.jupiter:junit-jupiter:5.10.0-M1"
 
-	implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
-
 	include(implementation("blue.endless:jankson:${project.jankson_version}"))
 
 	include(implementation("com.github.jdiemke.delaunay-triangulator:DelaunayTriangulator:1.0.0"))
@@ -84,6 +82,10 @@ processResources {
 
 tasks.withType(JavaCompile).configureEach {
 	it.options.release = 17
+}
+
+tasks.withType(Test).configureEach {
+	useJUnitPlatform()
 }
 
 java {
